@@ -1,0 +1,9 @@
+img{
+    height: 92px; /*Altura*/
+}
+
+a{
+    text-decoration: none;/*Decoração do texto*/
+    color: var(--gm3-sys-color-on-surface, #1f1f1f); /*Cor do texto*/
+    font-size: 13px; /*Tamanho fonte*/
+}
