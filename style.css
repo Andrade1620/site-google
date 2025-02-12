@@ -1,12 +1,17 @@
+*{ /*Universal*/
+   margin: 0; 
+   padding: 0;
+}
+
 img{
     height: 92px; /*Altura*/
 }
 
-a{
+a{ /*TAG LINK/ÂNCORA*/
     text-decoration: none;/*Decoração do texto*/
     color: var(--gm3-sys-color-on-surface, #1f1f1f); /*Cor do texto*/
     font-size: 13px; /*Tamanho fonte*/
-    font-family: sans-serif; /*Tipo/Familia*/
+    font-family: sans-serif; /*Tipo/Familia da fonte*/
 
 }
 .icone-produtos{
@@ -18,5 +23,8 @@ a{
     background-color: #1a73e8; /*Cor plano de fundo*/
     color: white;
     padding: 13px 12px; /*Espaçamento interno*/
-    border-radius: 40px;
+    border-radius: 40px; /*Raio da borda/Curvatura*/
+}
+footer{
+    background-color: #f2f2f2;
 }
